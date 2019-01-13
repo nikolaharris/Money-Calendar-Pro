@@ -9,28 +9,34 @@
         <title>Money Calendar Pro</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="./Components/TopNav.css">
+        <link rel="stylesheet" href="./Components/Footer.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">      
+        <link rel="icon" href="https://moneymappress.com/wp-content/themes/mmp/img/favicon.ico">
     </head>
     <body>
-        <div>
-            <a href="https://moneymappress.com/"><img src="./Assets/mmp-logo.svg"></a>
-            <form>
-                <div>
-                    <input type="text" name="username" placeholder="Username"><br>
-                    <input type="checkbox" name="rememberMe" value="rememberMe"> Remember Me
-                </div>
-                <div>
-                    <input type="text" name="password" placeholder="Password"><br>
-                    <a href="https://moneymappress.com/reset-password">Forgot Password?</a>
-                </div>
-                <div>
-                    <button>Submit</button>
-                </div>  
-            </form>
+        <div class="topnav">
+            <!-- Logo -->
+            <div class="topNavLogo">
+                <img src="./Assets/mmp-logo.svg">
+            </div>
+            <!-- Login -->
+            <div class="loginText">Log In</div>
+            <div>
+                <input class="input" type="text" name="username" placeholder="Username"><br>
+                <input class="checkBox" type="checkbox" name="rememberMe" value="rememberMe"> Remember Me
+            </div>
+            <div>
+                <input class="input" type="text" name="password" placeholder="Password"><br>
+                <a href="https://moneymappress.com/reset-password">Forgot Password?</a>
+            </div>
+            <div>
+                <button type="submit" class="submitbtn">Submit</button>
+            </div>  
+            <!-- Learn More Dropdown -->
             <div class="dropdown">
-                    <button class="dropbtn">Dropdown 
-                      <!-- <i class="fa fa-caret-down"></i> -->
+                    <button class="dropbtn" style="color: #222;">Learn More 
+                      <i class="fa fa-caret-down" style="color: #3B7E2E;"></i>
                     </button>
                     <div class="dropdown-content">
                       <a href="#">About Money Map Press</a>
@@ -41,8 +47,8 @@
                       <a href="#">Brokerage Firms</a>
                       <a href="#">Money Map Press Glossary</a>
                     </div>
+            </div>
         </div>
-
         <header>
             <div>
                 <a href="https://moneymappress.com/subscription/money-calendar-pro/"><img src="./Assets/mcp.png"></a>
@@ -99,31 +105,32 @@
         </section>
 
         <footer>
-            <div>
-                <a href="https://moneymappress.com/"><img src="./Assets/mmp-logo-light.png"></a>
-            </div>
-            <div>
-                <div>
-                    <img src="./Assets/google.png" style="width: 150px">
-                    <img src="./Assets/apple.svg">
+            <div class="container">
+                <div class="footLogo">
+                    <a href="https://moneymappress.com/"><img src="./Assets/mmp-logo-light.png"></a>
                 </div>
                 <div>
-                    <span>2019 - Money Map Press</span><br>
-                    <span>1125 N Charles Street | Baltimore, MD, 21201 | USA</span><br>
-                    <span>Toll-free 1.888.384.8339 | International +1.443.353.4519 | Fax 1.410.622.3050</span><br>
                     <div>
-                        <a href="https://moneymappress.com/site-map/">Site Map |</a>
-                        <a href="https://moneymappress.com/privacy-policy/">Privacy Policy |</a>
-                        <a href="https://moneymappress.com/disclaimer/">Disclaimer |</a>
-                        <a href="https://moneymappress.com/visitors/about">Contact Us |</a>
-                        <a href="https://moneymappress.com/">About Money Map Press |</a>
-                        <a href="https://moneymappress.com/terms-conditions/">Terms & Conditions</a>
+                        <img src="./Assets/google.png" style="width: 150px">
+                        <img src="./Assets/apple.svg">
+                    </div>
+                    <div>
+                        <span>2019 - Money Map Press</span><br>
+                        <span>1125 N Charles Street | Baltimore, MD, 21201 | USA</span><br>
+                        <span>Toll-free 1.888.384.8339 | International +1.443.353.4519 | Fax 1.410.622.3050</span><br>
+                        <div>
+                            <a href="https://moneymappress.com/site-map/">Site Map |</a>
+                            <a href="https://moneymappress.com/privacy-policy/">Privacy Policy |</a>
+                            <a href="https://moneymappress.com/disclaimer/">Disclaimer |</a>
+                            <a href="https://moneymappress.com/visitors/about">Contact Us |</a>
+                            <a href="https://moneymappress.com/">About Money Map Press |</a>
+                            <a href="https://moneymappress.com/terms-conditions/">Terms & Conditions</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </footer>
         
-        <script src="main.js" async defer></script>
         <script src="./Content/intro.js"></script>
         <script src="./Content/body.js"></script>
     </body>
