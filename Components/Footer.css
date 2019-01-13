@@ -1,9 +1,47 @@
+footer {
+    background: #333;
+    color: #f9f9f9;
+    font-size: 14px;
+    line-height: 26px;
+    padding: 30px 0px;
+}
+
+/* Flex Containter */
 footer .container {
     max-width: 940px;
     display: flex;
     margin: 0px auto;
 }
 
-.footLogo {
-    width: 22%;
+/* Flex Left Box */
+.leftChild {
+    flex-grow: 1;
+    /* padding-right: 100px; */
+}
+
+/* Flex Right Box */
+.rightChild {
+    flex-grow: 1;
+}
+
+.storeIcons {
+    display: flex;
+
+}
+
+.iconContainer {
+    align-items: center;
+    padding: 10px 5px;
+    margin: 0px;
+
+}
+
+.iconContainer img {
+    height: 40px;
+    width: auto;
+    margin: 0px;
+}
+
+.rightChild a:hover {
+    text-decoration: underline;
 }
