@@ -10,97 +10,134 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./Components/TopNav.css">
+        <link rel="stylesheet" href="./Components/header.css">
+        <link rel="stylesheet" href="./Components/hero.css">
+        <link rel="stylesheet" href="./Components/subFooter.css">
         <link rel="stylesheet" href="./Components/Footer.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">      
         <link rel="icon" href="https://moneymappress.com/wp-content/themes/mmp/img/favicon.ico">
     </head>
     <body>
         <div class="topnav">
+            <div class="container">
             <!-- Logo -->
-            <div class="topNavLogo">
-                <img src="./Assets/mmp-logo.svg">
-            </div>
-            <!-- Login -->
-            <div class="loginText">Log In</div>
-            <div>
-                <input class="input" type="text" name="username" placeholder="Username"><br>
-                <input class="checkBox" type="checkbox" name="rememberMe" value="rememberMe"> Remember Me
-            </div>
-            <div>
-                <input class="input" type="text" name="password" placeholder="Password"><br>
-                <a href="https://moneymappress.com/reset-password">Forgot Password?</a>
-            </div>
-            <div>
-                <button type="submit" class="submitbtn">Submit</button>
-            </div>  
-            <!-- Learn More Dropdown -->
-            <div class="dropdown">
-                    <button class="dropbtn" style="color: #222;">Learn More 
-                      <i class="fa fa-caret-down" style="color: #3B7E2E;"></i>
-                    </button>
-                    <div class="dropdown-content">
-                      <a href="#">About Money Map Press</a>
-                      <a href="#">Our Experts</a>
-                      <a href="#">Testimonials</a>
-                      <a href="#">FAQ</a>
-                      <a href="#">Contact Us</a>
-                      <a href="#">Brokerage Firms</a>
-                      <a href="#">Money Map Press Glossary</a>
-                    </div>
+                <div class="topNavLogo">
+                    <img src="./Assets/mmp-logo.svg">
+                </div>
+                <!-- Login -->
+                <div class="loginText">Log In</div>
+                <div>
+                    <input class="input" type="text" name="username" placeholder="Username"><br>
+                    <input class="checkBox" type="checkbox" name="rememberMe" value="rememberMe"> Remember Me
+                </div>
+                <div>
+                    <input class="input" type="text" name="password" placeholder="Password"><br>
+                    <a href="https://moneymappress.com/reset-password">Forgot Password?</a>
+                </div>
+                <div>
+                    <button type="submit" class="submitbtn">Submit</button>
+                </div>  
+                <!-- Learn More Dropdown -->
+                <div class="dropdown">
+                        <button class="dropbtn" style="color: #222;">Learn More 
+                        <i class="fa fa-caret-down" style="color: #3B7E2E;"></i>
+                        </button>
+                        <div class="dropdown-content">
+                        <a href="#">About Money Map Press</a>
+                        <a href="#">Our Experts</a>
+                        <a href="#">Testimonials</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Contact Us</a>
+                        <a href="#">Brokerage Firms</a>
+                        <a href="#">Money Map Press Glossary</a>
+                        </div>
+                </div>
             </div>
         </div>
         <header>
-            <div>
-                <a href="https://moneymappress.com/subscription/money-calendar-pro/"><img src="./Assets/mcp.png"></a>
+            <div class="container">
+                <div class="logoContainer">
+                    <a href="https://moneymappress.com/subscription/money-calendar-pro/"><img src="./Assets/mcp.png" id="mpcLogo"></a>
+                </div>
+                <ul class="navbar">
+                    <li><i class="fas fa-tachometer-alt"></i><br><span>Dashboard</span></li>
+                    <li><i class="fas fa-briefcase"></i><br><span>Portfolio</span></li>
+                    <li><i class="fas fa-bolt"></i><br><span>Alerts</span></li>
+                    <li><i class="fas fa-book"></i><br><span>Research<br>Reports</span></li>
+                    <li><i class="fas fa-microphone"></i><br><span>Media</span></li>
+                </ul>
             </div>
-            <ul>
-                <li><i class="fas fa-tachometer-alt"></i><br><span>Dashboard</span></li>
-                <li><i class="fas fa-briefcase"></i><br><span>Portfolio</span></li>
-                <li><i class="fas fa-bolt"></i><br><span>Alerts</span></li>
-                <li><i class="fas fa-book"></i><br><span>Research Reports</span></li>
-                <li><i class="fas fa-microphone"></i><br><span>Media</span></li>
-            </ul>
         </header>
 
-        <section>
-            <div>
-                <h1 id="headline"></h1>
-                <img src="./Assets/avatar.jpg">
-                <p id="intro"></p>
-                <a href="https://moneymappress.com/subscription/money-calendar-pro/#">Read More ></a><br>
-                <a href="https://pro.moneymappress.com/m/819078/?source2=welcome&srcpage=%2Fsubscription%2Fmoney-calendar-pro%2F&_ga=2.142545083.821699849.1547255635-1152472312.1547255635">Subscribe to Money Calendar Pro</a>
-            </div>
-            <div>
-                <h2 id="subHeadline"></h2>
-                <p id="subIntro"></p>
-                <button>Go here now</button>
-            </div>
-        </section>
-
-        <section>
-            <div>
-                <h2 id="bodyHeadline"></h2>
-                <p id="body"></p>
-                <a href="https://pro.moneymappress.com/m/819078/?source2=bottom-pitch&srcpage=%2Fsubscription%2Fmoney-calendar-pro%2F&_ga=2.209590299.821699849.1547255635-1152472312.1547255635">So click here now to get started.</a>
-            </div>
-
-            <div>
-                <h3 id="sideBodyHead"></h3>
-                <p id="sideBody"></p>
-                <a href="https://moneymappress.com/subscription/money-calendar-pro/testimonials/">Read All Reviews</a>
+        <section id="hero">
+            <div class="container">
+                <div class="heroLeft">
+                    <h1 id="headline"></h1>
+                    <div style="display: flex;"> 
+                        <img src="./Assets/avatar.jpg">
+                        <p id="intro"></p>
+                    </div>
+                    <p id="introBody"></p>
+                    <a href="https://moneymappress.com/subscription/money-calendar-pro/#">Read More ></a><br>
+                    <a href="https://pro.moneymappress.com/m/819078/?source2=welcome&srcpage=%2Fsubscription%2Fmoney-calendar-pro%2F&_ga=2.142545083.821699849.1547255635-1152472312.1547255635"><strong>Subscribe to Money Calendar Pro</strong></a>
+                </div>
+                <div class="heroRight">
+                    <div>
+                        <h2 id="subHeadline"></h2>
+                        <p id="subIntro"></p>
+                        <button class="herobtn">Go here now</button>
+                    </div>
+                </div>
             </div>
         </section>
 
         <section>
-            <div>
-                <h3>Newsletters</h3>
-                <a href="https://moneymappress.com/subscription/the-10-minute-millionaire-insider/">The 10-Minute Millionaire Insider <i class="fas fa-envelope"></i></a><br>
-                <a href="https://moneymappress.com/subscription/private-briefing/">Private Briefing<i class="fas fa-envelope"></i></a><br>
-                <a href="https://moneymappress.com/subscription/nova-x-report/">Nova-X Report <i class="fas fa-envelope"></i></a><br>
-                <a href="https://moneymappress.com/subscription/money-map-report/">Money Map Report <i class="fas fa-envelope"></i></a><br>
-                <a href="https://moneymappress.com/subscription/fast-fortune-club/">Fast Fortune Club <i class="fas fa-envelope"></i></a><br>
-                <a href="https://moneymappress.com/subscription/energy-advantage/">Energy Advantage <i class="fas fa-envelope"></i></a><br>
+            <div class="container">
+                <div>
+                    <h2 id="bodyHeadline"></h2>
+                    <p id="body"></p>
+                    <a href="https://pro.moneymappress.com/m/819078/?source2=bottom-pitch&srcpage=%2Fsubscription%2Fmoney-calendar-pro%2F&_ga=2.209590299.821699849.1547255635-1152472312.1547255635">So click here now to get started.</a>
+                </div>
 
+                <div>
+                    <h3 id="sideBodyHead"></h3>
+                    <p id="sideBody"></p>
+                    <a href="https://moneymappress.com/subscription/money-calendar-pro/testimonials/">Read All Reviews</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="subFooter">
+            <div class="container">
+                <div class="child">
+                    <h2 class="category">Newsletters</h2>
+                    <a href="https://moneymappress.com/subscription/the-10-minute-millionaire-insider/">The 10-Minute Millionaire Insider <i class="fas fa-envelope"></i></a><br>
+                    <a href="https://moneymappress.com/subscription/private-briefing/">Private Briefing<i class="fas fa-envelope"></i></a><br>
+                    <a href="https://moneymappress.com/subscription/nova-x-report/">Nova-X Report <i class="fas fa-envelope"></i></a><br>
+                    <a href="https://moneymappress.com/subscription/money-map-report/">Money Map Report <i class="fas fa-envelope"></i></a><br>
+                    <a href="https://moneymappress.com/subscription/fast-fortune-club/">Fast Fortune Club <i class="fas fa-envelope"></i></a><br>
+                    <a href="https://moneymappress.com/subscription/energy-advantage/">Energy Advantage <i class="fas fa-envelope"></i></a><br>
+                </div>
+
+                <div class="child right">
+                        <h2 class="category">Newsletters</h2>
+                        <a href="https://moneymappress.com/subscription/the-10-minute-millionaire-insider/">The 10-Minute Millionaire Insider <i class="fas fa-envelope"></i></a><br>
+                        <a href="https://moneymappress.com/subscription/private-briefing/">Private Briefing<i class="fas fa-envelope"></i></a><br>
+                        <a href="https://moneymappress.com/subscription/nova-x-report/">Nova-X Report <i class="fas fa-envelope"></i></a><br>
+                        <a href="https://moneymappress.com/subscription/money-map-report/">Money Map Report <i class="fas fa-envelope"></i></a><br>
+                        <a href="https://moneymappress.com/subscription/fast-fortune-club/">Fast Fortune Club <i class="fas fa-envelope"></i></a><br>
+                        <a href="https://moneymappress.com/subscription/energy-advantage/">Energy Advantage <i class="fas fa-envelope"></i></a><br>
+                    </div>
+
+                    <div class="child right">
+                            <h2 class="category">Newsletters</h2>
+                            <a href="https://moneymappress.com/subscription/the-10-minute-millionaire-insider/">The 10-Minute Millionaire Insider <i class="fas fa-envelope"></i></a><br>
+                            <a href="https://moneymappress.com/subscription/private-briefing/">Private Briefing<i class="fas fa-envelope"></i></a><br>
+                            <a href="https://moneymappress.com/subscription/nova-x-report/">Nova-X Report <i class="fas fa-envelope"></i></a><br>
+                            <a href="https://moneymappress.com/subscription/money-map-report/">Money Map Report <i class="fas fa-envelope"></i></a><br>
+                            <a href="https://moneymappress.com/subscription/fast-fortune-club/">Fast Fortune Club <i class="fas fa-envelope"></i></a><br>
+                            <a href="https://moneymappress.com/subscription/energy-advantage/">Energy Advantage <i class="fas fa-envelope"></i></a><br>
+                        </div>
             </div>
         </section>
 

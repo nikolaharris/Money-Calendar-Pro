@@ -7,7 +7,7 @@ footer {
 }
 
 /* Flex Containter */
-footer .container {
+.container {
     max-width: 940px;
     display: flex;
     margin: 0px auto;
